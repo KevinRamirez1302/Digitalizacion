@@ -1,11 +1,12 @@
 {
+  "homepage": "https://kevinramirez1302.github.io/Digitalizacion/",
   "name": "formreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
