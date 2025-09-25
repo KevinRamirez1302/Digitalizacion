@@ -12,9 +12,9 @@ const App = () => {
   // Estado para guardar cualquier mensaje de error de la llamada a la API.
   const [error, setError] = useState('');
 
-  // La URL del endpoint de la API de N8N. Debes reemplazarla con tu URL real.
+  // La URL del endpoint
   const n8nApiUrl =
-    'https://kevin1302.app.n8n.cloud/webhook-test/30051f65-4aba-4061-bf80-99030c0ec8cf';
+    'https://kevin1302.app.n8n.cloud/webhook/30051f65-4aba-4061-bf80-99030c0ec8cf';
 
   // Manejador para cuando el usuario hace clic en el botón de búsqueda.
   const handleSendMessage = async () => {

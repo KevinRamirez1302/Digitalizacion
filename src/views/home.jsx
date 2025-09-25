@@ -17,7 +17,8 @@ export const Home = () => {
 
         <div className="relative text-center text-white p-6 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-4 animate-fade-in-down">
-            La Palma AI: Tu asistente inteligente para el futuro
+            <span className=" text-emerald-500 text-7xl ">LA PALMA AI</span>: Tu
+            asistente inteligente para el futuro
           </h1>
           <p className="text-xl md:text-2xl font-light mb-8 opacity-80 animate-fade-in-up">
             Simplifica tu vida, optimiza tu trabajo y descubre nuevas
