@@ -24,7 +24,7 @@ const App = () => {
 
     try {
       const response = await axios.post(
-        'hhttps://kevin1302.app.n8n.cloud/webhook/2daf1627-df55-4416-a1ff-06e7b32f9185',
+        'https://kevin1302.app.n8n.cloud/webhook/2daf1627-df55-4416-a1ff-06e7b32f9185',
         formData
       );
 
