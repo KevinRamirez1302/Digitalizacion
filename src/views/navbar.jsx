@@ -8,11 +8,14 @@ export const Navbar = () => {
           <span role="img" aria-label="La Palma AI Logo">
             🌴
           </span>
-          <a href="/" className="text-2xl font-bold tracking-wide">
+          <a
+            href="/"
+            className=" text-sm sm:text-sm md:text-2xl font-bold tracking-wide"
+          >
             La Palma AI
           </a>
         </div>
-        <div className="flex space-x-6">
+        <div className=" text-[13px] md:text-xl flex space-x-6">
           <a
             href="#features"
             className="hover:text-gray-300 transition-colors duration-200"
